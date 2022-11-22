@@ -1,0 +1,17 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var React = require('react');
+var createIcon = require('../../createIcon/createIcon.js');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
+
+const EmrLocation = createIcon.createIcon(React__default['default'].createElement("path", { d: "M9.38596 16.3509C9.78947 16.3509 10.386 14.8421 10.386 12.6579V7.13158C11.9123 6.70175 13.0088 5.28947 13.0088 3.64035C13.0088 1.63158 11.4035 0 9.38596 0C7.36842 0 5.75439 1.63158 5.75439 3.64035C5.75439 5.28947 6.85965 6.69298 8.36842 7.13158V12.6579C8.36842 14.8333 8.97368 16.3509 9.38596 16.3509ZM8.35965 3.85088C7.70175 3.85088 7.12281 3.26316 7.12281 2.59649C7.12281 1.92105 7.70175 1.35965 8.35965 1.35965C9.04386 1.35965 9.59649 1.92105 9.59649 2.59649C9.59649 3.26316 9.04386 3.85088 8.35965 3.85088ZM9.37719 20C15.1842 20 18.7544 18.0877 18.7544 15.7456C18.7544 13.3509 15.1842 11.7544 11.9298 11.5526V13.3421C14.0965 13.4825 16.5702 14.3684 16.5702 15.6053C16.5702 17.114 13.5526 18.1404 9.37719 18.1404C5.19298 18.1404 2.17544 17.1228 2.17544 15.6053C2.17544 14.3684 4.65789 13.4825 6.81579 13.3421V11.5526C3.57018 11.7544 0 13.3509 0 15.7456C0 18.0877 3.57018 20 9.37719 20Z", fill: "currentColor" }), {
+    viewBox: "0 0 19 20",
+});
+
+exports.EmrLocation = EmrLocation;
+//# sourceMappingURL=EmrLocation.js.map

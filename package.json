@@ -1,0 +1,72 @@
+{
+  "name": "@medstonetech/slate-icons",
+  "version": "1.2.1",
+  "description": "Slate react custom icons library",
+  "source": "lib/index.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build": "rollup -c",
+    "build:storybook": "build-storybook",
+    "prepare": "husky install"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedStoneTech/slate-icons.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/MedStoneTech"
+  },
+  "keywords": [
+    "slate",
+    "react",
+    "ui",
+    "icons"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MedStoneTech/slate-icons/issues"
+  },
+  "homepage": "https://github.com/MedStoneTech/slate-icons#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@storybook/addon-actions": "^6.3.2",
+    "@storybook/addon-essentials": "^6.3.2",
+    "@storybook/addon-links": "^6.3.2",
+    "@storybook/react": "^6.3.2",
+    "@types/react": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.52.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": "eslint --cache --fix",
+    "*.{js,ts,tsx,md,json}": "prettier --write"
+  }
+}

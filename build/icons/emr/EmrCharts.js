@@ -1,0 +1,17 @@
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var React = require('react');
+var createIcon = require('../../createIcon/createIcon.js');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
+
+const EmrCharts = createIcon.createIcon(React__default['default'].createElement("path", { d: "M0 41.7973C0 45.8885 2.11155 48 6.14611 48H23.7926C27.8272 48 29.9387 45.8696 29.9387 41.7973V38.3095H33.1438C37.1783 38.3095 39.2899 36.1791 39.2899 32.1068V6.22152C39.2899 2.1304 37.1783 0 33.1438 0H15.4972C11.4627 0 9.35114 2.1304 9.35114 6.22152V9.69049H6.14611C2.11155 9.69049 0 11.8397 0 15.912V41.7973ZM19.8712 6.76826C19.0416 6.76826 18.5892 6.20267 18.5892 5.58052V5.1469C18.5892 4.5813 19.0039 3.9403 19.8712 3.9403H28.751C29.6371 3.9403 30.033 4.5813 30.033 5.1469V5.58052C30.033 6.20267 29.5994 6.76826 28.751 6.76826H19.8712ZM3.75177 41.5522V16.1571C3.75177 14.4226 4.65672 13.4611 6.48547 13.4611H12.2357V23.7172C12.2357 26.4509 13.5742 27.7706 16.2891 27.7706H26.187V41.5522C26.187 43.2867 25.282 44.2482 23.4533 44.2482H6.46661C4.65672 44.2482 3.75177 43.2867 3.75177 41.5522ZM16.6473 24.4713C15.8743 24.4713 15.535 24.1508 15.535 23.359V14.1775L25.6779 24.4713H16.6473Z", fill: "currentColor" }), {
+    viewBox: "0 0 40 48",
+});
+
+exports.EmrCharts = EmrCharts;
+//# sourceMappingURL=EmrCharts.js.map
